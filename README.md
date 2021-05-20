@@ -12,6 +12,8 @@ pip install numpy scipy matplotlib torch Biopython tqdm
 - `filter-fasta.py` - split and/or filter sequences by length from a fasta file
 - `plot_map.py` - plots a contact map
 
+
+## `filter-fasta.py` invocation
 ```
 usage: filter-fasta.py [-h] -i INPUT [-o OUTPUT] [-d DOMAIN_FILE]
                        [--split SPLIT] [-s] [-v]
