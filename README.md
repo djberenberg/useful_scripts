@@ -19,7 +19,7 @@ usage: filter-fasta.py [-h] -i INPUT [-o OUTPUT] [-d DOMAIN_FILE]
                        [--split SPLIT] [-s] [-v]
                        [--assert ASSERTION [ASSERTION ...]]
 
-Split or filter a
+Split or filter a FASTA file
 
 optional arguments:
   -h, --help            show this help message and exit
