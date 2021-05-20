@@ -59,7 +59,7 @@ def arguments():
     parser.add_argument("-i", help="Input filename", type=Path, metavar="INPUT", dest='input', required=True)
     parser.add_argument("-o", help="Output fasta file", type=Path, metavar="OUTPUT", dest='output')
     parser.add_argument("-d", help="Filter by provided domains", dest='domain_file') 
-    parser.add_argument("--split", default=" ")
+    parser.add_argument("--split", default=" ", help="sequence header delimiter to split on")
     parser.add_argument("-s", "--include-stops", help="Include sequences with stop codons",
                         default=False, action='store_true', dest='allow_stop_codons')
     parser.add_argument("-v", "--verbose", action='store_true', default=False, help="Verbose output")
